@@ -156,8 +156,11 @@ a:hover {
 }
 
 .session{
+    width: 250px;
+    display: block;
     border-left: 1px solid #ECEBEB;
-    margin-bottom: 2em;
+    margin-bottom: 32px;
+    padding-right: 48px;
 }
 
 time{
@@ -165,7 +168,7 @@ time{
     display: inline-block;
     margin: 0;
     color: #182A4C;
-    padding: 1em;
+    padding: 16px;
     border-bottom: 1px solid #ECEBEB;
     font-weight: lighter;
     font-size: 75%;
@@ -173,18 +176,18 @@ time{
 
 .session h3{
     text-transform: initial;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
     margin: 0;
-    font-size: 125%;
     font-weight: lighter;
+    font-size: 125%;
 }
 
 .session h4{
     margin: 0;
-    padding-left: 1em;
-    padding-bottom: 1em;
+    padding-left: 16px;
+    padding-bottom: 16px;
     text-transform: uppercase;
     font-weight: lighter;
 }
