@@ -129,11 +129,11 @@ a:hover {
     border-bottom: 1px dotted;
 }
 
-
 #section-speaker{
     padding-top: 5em;
     padding-bottom: 10em;
     background-color: #EEEFF1;
+    text-align: center;
 }
 
 .section-title{
@@ -141,13 +141,46 @@ a:hover {
     margin-bottom: 5em;
 }
 
+.thumbnail{
+    margin: 0.5em;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+}
+
 .section-content .thumbnail figcaption h3 small{
     font-weight: normal;
     color: #868686;
+    display: block;
+    padding-top: 5%;
 }
 
+.session{
+    text-transform: uppercase;
+    padding-bottom: 2em;
+    margin: 0;
+}
 
+time{
+    margin: 0;
+    color: #182A4C;
+    padding: 1em;
+    border-left: 1px solid #ECEBEB;
+    border-bottom: 1px solid #ECEBEB;
+}
 
+.session h3{
+    margin: 0;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    border-left: 1px solid #ECEBEB;
+}
+
+.session h4{
+    padding-left: 1em;
+    border-left: 1px solid #ECEBEB;
+}
 
 
 
