@@ -156,30 +156,42 @@ a:hover {
 }
 
 .session{
-    text-transform: uppercase;
-    padding-bottom: 2em;
-    margin: 0;
+    border-left: 1px solid #ECEBEB;
+    margin-bottom: 2em;
 }
 
 time{
+
+    display: inline-block;
     margin: 0;
     color: #182A4C;
     padding: 1em;
-    border-left: 1px solid #ECEBEB;
     border-bottom: 1px solid #ECEBEB;
+    font-weight: lighter;
+    font-size: 75%;
 }
 
 .session h3{
-    margin: 0;
+    text-transform: initial;
     padding-top: 1em;
     padding-left: 1em;
     padding-bottom: 1em;
-    border-left: 1px solid #ECEBEB;
+    margin: 0;
+    font-size: 125%;
+    font-weight: lighter;
 }
 
 .session h4{
+    margin: 0;
     padding-left: 1em;
-    border-left: 1px solid #ECEBEB;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.session h4 span{
+    display: block;
+    font-size: 75%;
 }
 
 
