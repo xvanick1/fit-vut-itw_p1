@@ -68,10 +68,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
     height: 100vh;
-
-
     text-align: center;
     color: #ffffff;
 }
@@ -129,7 +126,7 @@ a:hover {
     border-bottom: 1px dotted;
 }
 
-#section-speaker{
+#section-speaker, #section-pricing{
     padding-top: 5em;
     padding-bottom: 10em;
     background-color: #EEEFF1;
@@ -139,6 +136,10 @@ a:hover {
 .section-title{
     text-align: center;
     margin-bottom: 5em;
+}
+
+.section-title p{
+    color: #7A7B7D;
 }
 
 .thumbnail{
@@ -161,6 +162,10 @@ a:hover {
     border-left: 1px solid #ECEBEB;
     margin-bottom: 32px;
     padding-right: 48px;
+}
+
+#section-agenda{
+    margin-bottom: 5em;
 }
 
 time{
@@ -196,6 +201,68 @@ time{
     display: block;
     font-size: 75%;
 }
+
+.pricing-table-default{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffffff;
+    width: 320px;
+    border-width: 320px;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: inline-block;
+    padding-bottom: 2em;
+}
+
+.pricing-head h3{
+    font-size: 90%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #0E164B;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0 0 2em;
+
+}
+
+.pricing-head span{
+
+    font-size: 64px;
+    font-weight: bolder;
+    color: #2e3638;
+    padding-right: 26px;
+}
+
+.pricing-head span sup{
+    font-size: 32px;
+}
+
+.pricing-detail ul{
+    display: inline;
+}
+.pricing-detail li{
+    display: block;
+    margin-bottom: 2em;
+    list-style-type: none;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#section-pricing .btn{
+    padding: 1em 2em;
+    background-color: #fd367e;
+    color: #ffffff;
+}
+
+#section-pricing .btn:hover{
+    color: #fd367e;
+    border: 2px solid #fd367e;
+    background-color: white;
+}
+
+
 
 
 
