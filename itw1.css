@@ -135,6 +135,7 @@ a:hover {
 
 .section-title{
     text-align: center;
+    margin-top: 5em;
     margin-bottom: 5em;
 }
 
@@ -210,6 +211,7 @@ time{
     border-width: 320px;
     margin-left: 1em;
     margin-right: 1em;
+    margin-top: 2em;
     display: inline-block;
     padding-bottom: 2em;
 }
@@ -262,11 +264,26 @@ time{
     background-color: white;
 }
 
+.partner{
+    display: inline-block;
+    vertical-align: middle;
+    horiz-align: center;
+    padding: 10px;
 
+}
 
+#footer{
+    font-size: 13px;
+    color: #868686;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10em;
+    padding-bottom: 2em;
+}
 
-
-
+#footer a{
+    color: #fd367e;
+}
 
 
 
