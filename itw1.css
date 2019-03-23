@@ -1,3 +1,10 @@
+/**
+ * Created by PhpStorm.
+ * Author: Jozef Vanický
+ * VUT Login: xvanic09
+ * Date: 2019-03-12
+ **/
+
 html{
     font-family: Arial;
     color: #10154B;
@@ -120,7 +127,7 @@ a:hover {
 
 .contact{
     padding-top: 1em;
-    padding-left: 2em;
+    padding-left: 1em;
     display: inline-block;
 }
 .contact address{
@@ -179,6 +186,13 @@ a:hover {
 
 #section-agenda{
     margin-bottom: 5em;
+    text-align: center;
+}
+
+.agenda-part{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
 }
 
 time{
