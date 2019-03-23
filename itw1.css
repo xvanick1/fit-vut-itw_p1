@@ -105,11 +105,23 @@ a:hover {
 
 #section-intro{
     margin-top: 5em;
+    padding-bottom: 5em;
     font-size: 19px;
 }
 
+#section-intro .lead{
+    display: inline-block;
+    float: left;
+    line-height: 1.8;
+    font-weight: lighter;
+    font-size: 80%;
+    max-width: 700px;
+}
+
 .contact{
-    margin-bottom: 5em;
+    padding-top: 1em;
+    padding-left: 2em;
+    display: inline-block;
 }
 .contact address{
     font-size: 15px;
@@ -262,6 +274,10 @@ time{
     color: #fd367e;
     border: 2px solid #fd367e;
     background-color: white;
+}
+
+#section-partner{
+    text-align: center;
 }
 
 .partner{
