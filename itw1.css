@@ -116,6 +116,13 @@ a:hover {
     font-size: 19px;
 }
 
+#section-intro .content::after{
+    content: "";
+    clear: both;
+    float: none;
+    display: block;
+}
+
 #section-intro .lead{
     display: inline-block;
     float: left;
@@ -126,6 +133,7 @@ a:hover {
 }
 
 .contact{
+    float: left;
     padding-top: 1em;
     padding-left: 1em;
     display: inline-block;
