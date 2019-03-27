@@ -75,9 +75,35 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     color: #ffffff;
+}
+
+@media screen and (max-width: 750px) {
+    .main-title {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-height: 630px) {
+    .main-title {
+        height: 870px;
+    }
+
+    .main-title .content {
+        height: 0px;
+    }
+}
+
+@media (max-width: 650px){
+    .main-title {
+        height: 870px;
+    }
+
+    .main-title .content {
+        height: 350px;
+    }
 }
 
 .main-title h1{
